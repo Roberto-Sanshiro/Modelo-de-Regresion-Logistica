@@ -1,6 +1,21 @@
 ## :bulb: Modelo de Regresión Logística para Credit Scoring
 
-Este proyecto implementa un modelo de **Regresión Logística** para predecir el **Riesgo Crediticio**, utilizando un conjunto de variables numéricas y categóricas. El modelo está diseñado para realizar clasificación binaria a partir de datos estructurados.
+Este proyecto implementa un modelo de **Regresión Logística** para estimar el **Riesgo Crediticio**, utilizando variables tanto **numéricas** como **categóricas**.  
+El objetivo es realizar una **clasificación binaria** a partir de datos estructurados, con el fin de predecir si un cliente representa un riesgo de incumplimiento.
+
+### 📐 Fundamento matemático
+
+La regresión logística modela la probabilidad de un evento binario como:
+
+$$
+P(y=1 \mid \mathbf{x}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}
+$$
+
+donde:
+
+- \( y \in \{0,1\} \) es la variable objetivo (por ejemplo, "incumple" vs. "no incumple"),
+- \( \mathbf{x} = (x_1, \dots, x_n) \) son las variables predictoras,
+- \( \beta_0, \beta_1, \dots, \beta_n \) son los coeficientes del modelo.
 
 ## 📌 Funciones principales
 
