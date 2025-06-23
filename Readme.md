@@ -1,6 +1,6 @@
 ## :bulb: Modelo de Regresión Logística para Credit Scoring
 
-Este proyecto implementa un modelo de **regresión logística** para predecir el **Riesgo Crediticio**, utilizando un conjunto de variables numéricas y categóricas. El modelo está diseñado para realizar clasificación binaria (por ejemplo, riesgo bajo vs. riesgo alto) a partir de datos estructurados.
+Este proyecto implementa un modelo de **Regresión Logística** para predecir el **Riesgo Crediticio**, utilizando un conjunto de variables numéricas y categóricas. El modelo está diseñado para realizar clasificación binaria a partir de datos estructurados.
 
 ## 📌 Funciones principales
 
