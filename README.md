@@ -1,4 +1,4 @@
-## 🧠 Modelo de Regresión Logística para Predicción de Riesgo Crediticio
+## 🧠 Modelo de Regresión Logística para Credit Scoring
 
 Este proyecto implementa un modelo de **regresión logística** para predecir el **riesgo de crédito** de clientes, utilizando un conjunto de variables numéricas y categóricas. El modelo está diseñado para realizar clasificación binaria (por ejemplo, riesgo bajo vs. riesgo alto) a partir de datos estructurados.
 
