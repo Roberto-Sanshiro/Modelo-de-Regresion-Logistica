@@ -10,12 +10,6 @@ $$
 P(y=1 \mid \mathbf{x}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}
 $$
 
-donde:
-
-- \( y \in \{0,1\} \) es la variable objetivo (por ejemplo, "incumple" vs. "no incumple"),
-- \( \mathbf{x} = (x_1, \dots, x_n) \) son las variables predictoras,
-- \( \beta_0, \beta_1, \dots, \beta_n \) son los coeficientes del modelo.
-
 ## 📌 Funciones principales
 
 ### ✅ Preprocesamiento automatizado
