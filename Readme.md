@@ -4,7 +4,7 @@ Este proyecto implementa un modelo de **Regresión Logística** para estimar el 
 
 ### 📐 Fundamento Matemático
 
-La regresión logística modela la probabilidad de un evento binario como:
+La regresión logística modela la probabilidad de un evento binario (por ejemplo, que un cliente incumpla o no) como:
 
 $$
 P(y=1 \mid \mathbf{x}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}
