@@ -14,18 +14,6 @@ Esta función toma una combinación lineal de las variables de entrada $\mathbf{
 
 Aquí, las variables de entrada son las características o datos que conocemos del cliente, como su edad, ingreso, historial crediticio, etc. Los coeficientes $\beta_0, \beta_1, \ldots, \beta_n$ indican la importancia que cada característica tiene para predecir el riesgo.
 
-La regresión logística modela la probabilidad de un evento binario (por ejemplo, que un cliente incumpla o no) como:
-
-$$
-P(y=1 \mid \mathbf{x}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}
-$$
-
-Esta función toma una combinación lineal de las variables de entrada $\mathbf{x} = (x_1, \ldots, x_n)$ y sus coeficientes $\beta_i$, y la transforma en un valor entre 0 y 1, que representa una probabilidad.
-
-Aquí, las variables de entrada son las características o datos que conocemos del cliente, como su edad, ingreso, historial crediticio, etc. Los coeficientes $\beta_0, \beta_1, \ldots, \beta_n$ indican la importancia que cada característica tiene para predecir el riesgo.
-
----
-
 ### 🛠️ Construcción del Modelo
 
 Para construir el modelo de regresión logística seguimos estos pasos:
