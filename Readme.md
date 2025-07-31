@@ -26,7 +26,7 @@ Aquí, las variables de entrada son las características o datos que conocemos d
 
 ---
 
-## 🛠️ Construcción del Modelo
+### 🛠️ Construcción del Modelo
 
 Para construir el modelo de regresión logística seguimos estos pasos:
 
