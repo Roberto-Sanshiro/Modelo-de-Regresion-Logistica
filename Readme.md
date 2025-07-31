@@ -32,9 +32,3 @@ Para construir el modelo de regresión logística seguimos estos pasos:
 
 5. **Umbral de Clasificación:**  
    Se define un umbral (usualmente 0.5) para decidir si un cliente es considerado de riesgo o no, basado en la probabilidad estimada.
-
-### 💻 Implementación del Modelo en Python
-
-Una vez establecido el fundamento matemático y descritos los pasos necesarios para la construcción del modelo, procedemos con su implementación en código utilizando el lenguaje de programación **Python**.
-
-En esta sección se desarrollará el proceso de entrenamiento, evaluación y validación del modelo de regresión logística utilizando datos estructurados.
