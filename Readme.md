@@ -30,5 +30,11 @@ Para construir el modelo de regresión logística seguimos estos pasos:
 4. **Evaluación del Modelo:**  
    Se evalúa el desempeño usando métricas como la matriz de confusión, AUC-ROC, precisión y recall para asegurar que el modelo predice bien el riesgo.
 
-5. **Umbral de Clasificación:**  
+5.**Umbral de Clasificación:**  
    Se define un umbral (usualmente 0.5) para decidir si un cliente es considerado de riesgo o no, basado en la probabilidad estimada.
+
+### 💻 Implementación del Modelo en Python
+
+Una vez establecido el fundamento matemático y descritos los pasos necesarios para la construcción del modelo, procedemos con su implementación utilizando el lenguaje de programación **Python**.
+
+En esta sección se desarrolla el proceso de entrenamiento, evaluación y validación del modelo de regresión logística a partir de datos estructurados.
