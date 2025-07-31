@@ -12,7 +12,7 @@ $$
 
 Esta función toma una combinación lineal de las variables explicativas \(\mathbf{x} = (x_1, \ldots, x_n)\) y sus coeficientes \(\beta_i\), y la transforma en un valor entre 0 y 1, que representa una probabilidad.
 
-Aquí, \(\beta_0\) es el intercepto y \(\beta_1, \ldots, \beta_n\) son los coeficientes que indican el impacto de cada variable en la probabilidad del evento.
+Aquí, $$\(\beta_0\)$$ es el intercepto y \(\beta_1, \ldots, \beta_n\) son los coeficientes que indican el impacto de cada variable en la probabilidad del evento.
 
 ## 📌 Funciones principales
 
