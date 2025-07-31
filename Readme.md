@@ -10,9 +10,9 @@ $$
 P(y=1 \mid \mathbf{x}) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \cdots + \beta_n x_n)}}
 $$
 
-Esta función toma una combinación lineal de las variables explicativas $$\(\mathbf{x} = (x_1, \ldots, x_n)\)$$ y sus coeficientes $$\(\beta_i\)$$, y la transforma en un valor entre 0 y 1, que representa una probabilidad.
+Esta función toma una combinación lineal de las variables de entrada $$\mathbf{x} = (x_1, \ldots, x_n)$$ y sus coeficientes $$\beta_i$$, y la transforma en un valor entre 0 y 1, que representa una probabilidad.
 
-Aquí, $$\(\beta_0\)$$ es el intercepto y $$\(\beta_1, \ldots, \beta_n\)$$ son los coeficientes que indican el impacto de cada variable en la probabilidad del evento.
+Aquí, las variables de entrada son las características o datos que conocemos del cliente, como su edad, ingreso, historial crediticio, etc. Los coeficientes $$\beta_0, \beta_1, \ldots, \beta_n$$ indican la importancia que cada característica tiene para predecir el riesgo.
 
 ## 📌 Funciones principales
 
