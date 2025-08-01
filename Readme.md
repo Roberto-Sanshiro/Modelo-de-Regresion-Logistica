@@ -30,7 +30,7 @@ Para construir el modelo de regresión logística seguimos estos pasos:
 4. **Evaluación del Modelo:**  
    Se evalúa el desempeño usando métricas como la matriz de confusión, AUC-ROC, precisión y recall para asegurar que el modelo predice bien el riesgo.
 
-5.**Umbral de Clasificación:**  
+5. **Umbral de Clasificación:**  
    Se define un umbral (usualmente 0.5) para decidir si un cliente es considerado de riesgo o no, basado en la probabilidad estimada.
 
 ### ⚠️ Advertencia
