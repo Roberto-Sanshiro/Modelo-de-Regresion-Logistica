@@ -46,7 +46,22 @@ En los modelo de credit scoring es común que las clases estén desequilibradas:
 2. **Sobremuestreo:** aumentar casos de la clase minoritaria, incluso con métodos como SMOTE.  
 3. **Ajuste de pesos:** dar más importancia a la clase minoritaria durante el entrenamiento.  
 4. **Umbrales personalizados:** cambiar el punto de corte para mejorar la clasificación.
-   
+
+## 🏷️ Codificación de Variables Categóricas
+
+Las variables categóricas deben transformarse en números para ser usadas en modelos de regresión logística.
+
+### Técnicas comunes:
+
+1. **One-Hot Encoding**  
+   Convierte cada categoría en una columna binaria (0 o 1). Se usa cuando las categorías no tienen un orden específico.
+
+2. **Label Encoding**  
+   Asigna un número entero a cada categoría. Es útil cuando las categorías tienen un orden natural (variables ordinales).
+
+3. **Target Encoding**  
+   Reemplaza cada categoría con la media del target para esa categoría. Puede mejorar el desempeño, pero debe usarse con cuidado para evitar sobreajuste.
+
 ## 💻 Implementación del Modelo en Python
 
 Una vez establecido el fundamento matemático y descritos los pasos necesarios para la construcción del modelo, procedemos con su implementación utilizando el lenguaje de programación **Python**.
