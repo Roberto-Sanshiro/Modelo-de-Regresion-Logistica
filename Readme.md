@@ -22,7 +22,7 @@ Para construir el modelo de regresión logística seguimos estos pasos:
    Especificar claramente el objetivo del modelo, identificando qué problema se busca resolver y cuál es la variable objetivo (target) que se desea predecir o clasificar.
 
 2. **Exploración de los Datos:**  
-   Se realiza un análisis de la calidad de los datos.
+   Se analiza la calidad y características de los datos, revisando valores faltantes, outliers, distribución de variables y posibles inconsistencias.
 
 3. **Selección de Variables:**  
    Se eligen las características relevantes del cliente (edad, ingresos, historial crediticio, etc.) que podrían influir en el riesgo de incumplimiento.
