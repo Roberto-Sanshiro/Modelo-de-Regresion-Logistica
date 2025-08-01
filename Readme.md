@@ -18,10 +18,10 @@ Aquí, las variables de entrada son las características o datos que conocemos d
 
 Para construir el modelo de regresión logística seguimos estos pasos:
 
-1.**Definición del Problema y Target**
+1. **Definición del Problema y Target**
    Especificar claramente el objetivo del modelo, identificando qué problema se busca resolver y cuál es la variable objetivo (target) que se desea predecir o clasificar.
 
-2.**Exploración de los Datos**
+2. **Exploración de los Datos**
    Se realiza un análisis de la calidad de los datos.
 
 3. **Selección de Variables:**  
