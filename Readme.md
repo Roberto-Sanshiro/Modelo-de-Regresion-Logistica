@@ -46,9 +46,7 @@ En los modelo de credit scoring es común que las clases estén desequilibradas:
 2. **Sobremuestreo:** aumentar casos de la clase minoritaria, incluso con métodos como SMOTE.  
 3. **Ajuste de pesos:** dar más importancia a la clase minoritaria durante el entrenamiento.  
 4. **Umbrales personalizados:** cambiar el punto de corte para mejorar la clasificación.
-
-Estas técnicas ayudan a que el modelo detecte mejor a los clientes con riesgo real.
-
+   
 ## 💻 Implementación del Modelo en Python
 
 Una vez establecido el fundamento matemático y descritos los pasos necesarios para la construcción del modelo, procedemos con su implementación utilizando el lenguaje de programación **Python**.
