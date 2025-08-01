@@ -14,10 +14,6 @@ Esta función toma una combinación lineal de las variables de entrada $\mathbf{
 
 Aquí, las variables de entrada son las características o datos que conocemos del cliente, como su edad, ingreso, historial crediticio, etc. Los coeficientes $\beta_0, \beta_1, \ldots, \beta_n$ indican la importancia que cada característica tiene para predecir el riesgo.
 
-### 🛠️ Construcción del Modelo
-
-Para construir el modelo de regresión logística seguimos estos pasos:
-
 # 🛠️ Construcción del Modelo
 
 Para construir el modelo de regresión logística seguimos estos pasos:
@@ -32,7 +28,7 @@ Para construir el modelo de regresión logística seguimos estos pasos:
    Se eligen las características relevantes del cliente (edad, ingresos, historial crediticio, etc.) que podrían influir en el riesgo de incumplimiento.
 
 4. **Estimación de Coeficientes:**  
-   Se ajustan los coeficientes \(\beta_0, \beta_1, \ldots, \beta_n\) utilizando el método de máxima verosimilitud, que busca los valores que mejor explican los datos observados.
+   Se ajustan los coeficientes $\(\beta_0, \beta_1, \ldots, \beta_n\)$ utilizando el método de máxima verosimilitud, que busca los valores que mejor explican los datos observados.
 
 5. **Función de Verosimilitud:**  
    El modelo maximiza la probabilidad de observar los datos bajo las probabilidades predichas por la función sigmoide.
