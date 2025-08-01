@@ -2,7 +2,7 @@
 
 Este proyecto implementa un modelo de **Regresión Logística** para estimar el **Riesgo Crediticio**, utilizando variables tanto **numéricas** como **categóricas**. El objetivo es realizar una **clasificación binaria** a partir de datos estructurados, con el fin de predecir si un cliente representa un riesgo de incumplimiento.
 
-# 📐 Fundamento Matemático
+## 📐 Fundamento Matemático
 
 La regresión logística modela la probabilidad de un evento binario (por ejemplo: que un cliente incumpla o no) como:
 
@@ -14,7 +14,7 @@ Esta función toma una combinación lineal de las variables de entrada $\mathbf{
 
 Aquí, las variables de entrada son las características o datos que conocemos del cliente, como su edad, ingreso, historial crediticio, etc. Los coeficientes $\beta_0, \beta_1, \ldots, \beta_n$ indican la importancia que cada característica tiene para predecir el riesgo.
 
-# 🛠️ Construcción del Modelo
+## 🛠️ Construcción del Modelo
 
 Para construir el modelo de regresión logística seguimos estos pasos:
 
@@ -36,11 +36,11 @@ Para construir el modelo de regresión logística seguimos estos pasos:
 6. **Implementación y Monitoreo:**  
    Desplegar el modelo en producción y monitorear continuamente para detectar degradación o cambios en el comportamiento del riesgo.
 
-# ⚠️ Advertencia
+## ⚠️ Advertencia
 
 En los modelo de credit scoring es común que las clases estén desequilibradas: la mayoría de los clientes sí pagan, y solo una minoría incumple. Este desbalance puede hacer que el modelo sobrestime la clase mayoritaria.
 
-# 💻 Implementación del Modelo en Python
+## 💻 Implementación del Modelo en Python
 
 Una vez establecido el fundamento matemático y descritos los pasos necesarios para la construcción del modelo, procedemos con su implementación utilizando el lenguaje de programación **Python**.
 
