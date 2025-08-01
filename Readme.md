@@ -33,7 +33,7 @@ Para construir el modelo de regresión logística seguimos estos pasos:
 5.**Umbral de Clasificación:**  
    Se define un umbral (usualmente 0.5) para decidir si un cliente es considerado de riesgo o no, basado en la probabilidad estimada.
 
-###⚠️ Advertencia
+### ⚠️ Advertencia
 
 En problemas de credit scoring, es común que las clases estén desequilibradas: la mayoría de los clientes sí pagan, y solo una minoría incumple. Este desbalance puede hacer que el modelo sobrestime la clase mayoritaria.
 
