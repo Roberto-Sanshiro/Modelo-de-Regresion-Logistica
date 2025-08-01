@@ -35,7 +35,7 @@ Para construir el modelo de regresión logística seguimos estos pasos:
 
 ### ⚠️ Advertencia
 
-En el modelo de credit scoring es común que las clases estén desequilibradas: la mayoría de los clientes sí pagan, y solo una minoría incumple. Este desbalance puede hacer que el modelo sobrestime la clase mayoritaria.
+En los modelo de credit scoring es común que las clases estén desequilibradas: la mayoría de los clientes sí pagan, y solo una minoría incumple. Este desbalance puede hacer que el modelo sobrestime la clase mayoritaria.
 
 ### 💻 Implementación del Modelo en Python
 
